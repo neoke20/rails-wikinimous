@@ -1,0 +1,33 @@
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+body {
+  background-color: #DCEDC8;
+}
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #F8F8F8;
+  padding: 8px 16px 8px 16px;
+  border-bottom: 1px solid #a1a1a1;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.articles a {
+  color: #212121;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+i {
+  font-size: medium;
+}

@@ -1,0 +1,12 @@
+<div class="mx-auto" style="width: 700px;">
+  <h2><%= @article.title %>
+  <%= link_to edit_article_path do %>
+    <i class="fas fa-pencil-alt"></i>
+  <% end %>
+  <%= link_to article_path(@article), method: :delete, data: { confirm: "Do you really want to delete #{@article.title}?"} do %>
+    <i class="fas fa-trash-alt"></i>
+  <% end %>
+  </h2>
+  <hr>
+  <p><%= @article.content %></p>
+</div>
